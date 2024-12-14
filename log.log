@@ -1,0 +1,2364 @@
+2024-11-24 22:14:41 [INFO] Connecting...
+2024-11-24 22:14:41 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 22:14:41 [INFO] NetworkTask started
+2024-11-24 22:14:42 [INFO] Session initialized: Layer 158
+2024-11-24 22:14:42 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 22:14:42 [INFO] System: Windows 10 (en)
+2024-11-24 22:14:42 [INFO] Session started
+2024-11-24 22:14:42 [INFO] PingTask started
+2024-11-24 22:14:42 [INFO] Started 16 HandlerTasks
+2024-11-24 22:14:42 [INFO] asd
+2024-11-24 22:14:42 [INFO] 1055p
+2024-11-24 22:14:54 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:96> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:97> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 128, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 97, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:97> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-24 23:13:54 [INFO] Connecting...
+2024-11-24 23:13:54 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:13:54 [INFO] NetworkTask started
+2024-11-24 23:13:54 [INFO] Session initialized: Layer 158
+2024-11-24 23:13:54 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:13:54 [INFO] System: Windows 10 (en)
+2024-11-24 23:13:54 [INFO] Session started
+2024-11-24 23:13:54 [INFO] PingTask started
+2024-11-24 23:13:54 [INFO] Started 16 HandlerTasks
+2024-11-24 23:13:54 [INFO] Connecting...
+2024-11-24 23:13:54 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-24 23:13:54 [INFO] NetworkTask started
+2024-11-24 23:13:55 [INFO] Session initialized: Layer 158
+2024-11-24 23:13:55 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:13:55 [INFO] System: Windows 10 (en)
+2024-11-24 23:13:55 [INFO] Session started
+2024-11-24 23:13:55 [INFO] PingTask started
+2024-11-24 23:16:48 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:97> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:98> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 130, in main
+    await app.send_document(LOG_group_name, 'log.log')
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 98, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:98> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-24 23:16:51 [INFO] Connecting...
+2024-11-24 23:16:51 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:16:51 [INFO] NetworkTask started
+2024-11-24 23:16:52 [INFO] Session initialized: Layer 158
+2024-11-24 23:16:52 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:16:52 [INFO] System: Windows 10 (en)
+2024-11-24 23:16:52 [INFO] Session started
+2024-11-24 23:16:52 [INFO] PingTask started
+2024-11-24 23:16:52 [INFO] Started 16 HandlerTasks
+2024-11-24 23:17:33 [INFO] Connecting...
+2024-11-24 23:17:33 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:17:33 [INFO] NetworkTask started
+2024-11-24 23:17:33 [INFO] Session initialized: Layer 158
+2024-11-24 23:17:33 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:17:33 [INFO] System: Windows 10 (en)
+2024-11-24 23:17:33 [INFO] Session started
+2024-11-24 23:17:33 [INFO] PingTask started
+2024-11-24 23:17:33 [INFO] Started 16 HandlerTasks
+2024-11-24 23:17:33 [INFO] Connecting...
+2024-11-24 23:17:33 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-24 23:17:33 [INFO] NetworkTask started
+2024-11-24 23:17:34 [INFO] Session initialized: Layer 158
+2024-11-24 23:17:34 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:17:34 [INFO] System: Windows 10 (en)
+2024-11-24 23:17:34 [INFO] Session started
+2024-11-24 23:17:34 [INFO] PingTask started
+2024-11-24 23:18:27 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:97> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:98> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 131, in main
+    await app.send_document(LOG_group_name, 'log.log')
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 98, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:98> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-24 23:19:47 [INFO] Connecting...
+2024-11-24 23:19:47 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:19:47 [INFO] NetworkTask started
+2024-11-24 23:19:48 [INFO] Session initialized: Layer 158
+2024-11-24 23:19:48 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:19:48 [INFO] System: Windows 10 (en)
+2024-11-24 23:19:48 [INFO] Session started
+2024-11-24 23:19:48 [INFO] PingTask started
+2024-11-24 23:19:48 [INFO] Started 16 HandlerTasks
+2024-11-24 23:19:48 [INFO] Connecting...
+2024-11-24 23:19:48 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-24 23:19:48 [INFO] NetworkTask started
+2024-11-24 23:19:48 [INFO] Session initialized: Layer 158
+2024-11-24 23:19:48 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:19:48 [INFO] System: Windows 10 (en)
+2024-11-24 23:19:48 [INFO] Session started
+2024-11-24 23:19:48 [INFO] PingTask started
+2024-11-24 23:20:06 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:97> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:98> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 131, in main
+    await app.send_document(LOG_group_name, 'C:/projects/telegramsender/log.log')
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 98, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:98> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-24 23:20:10 [INFO] Connecting...
+2024-11-24 23:20:10 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:20:10 [INFO] NetworkTask started
+2024-11-24 23:20:10 [INFO] Session initialized: Layer 158
+2024-11-24 23:20:10 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:20:10 [INFO] System: Windows 10 (en)
+2024-11-24 23:20:10 [INFO] Session started
+2024-11-24 23:20:10 [INFO] PingTask started
+2024-11-24 23:20:10 [INFO] Started 16 HandlerTasks
+2024-11-24 23:21:04 [INFO] Connecting...
+2024-11-24 23:21:05 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:21:05 [INFO] NetworkTask started
+2024-11-24 23:21:05 [INFO] Session initialized: Layer 158
+2024-11-24 23:21:05 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:21:05 [INFO] System: Windows 10 (en)
+2024-11-24 23:21:05 [INFO] Session started
+2024-11-24 23:21:05 [INFO] PingTask started
+2024-11-24 23:21:05 [INFO] Started 16 HandlerTasks
+2024-11-24 23:22:34 [INFO] Connecting...
+2024-11-24 23:22:34 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:22:34 [INFO] NetworkTask started
+2024-11-24 23:22:34 [INFO] Session initialized: Layer 158
+2024-11-24 23:22:34 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:22:34 [INFO] System: Windows 10 (en)
+2024-11-24 23:22:34 [INFO] Session started
+2024-11-24 23:22:34 [INFO] PingTask started
+2024-11-24 23:22:35 [INFO] Started 16 HandlerTasks
+2024-11-24 23:22:59 [INFO] Connecting...
+2024-11-24 23:22:59 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:22:59 [INFO] NetworkTask started
+2024-11-24 23:23:00 [INFO] Session initialized: Layer 158
+2024-11-24 23:23:00 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:23:00 [INFO] System: Windows 10 (en)
+2024-11-24 23:23:00 [INFO] Session started
+2024-11-24 23:23:00 [INFO] PingTask started
+2024-11-24 23:23:00 [INFO] Started 16 HandlerTasks
+2024-11-24 23:23:37 [INFO] Connecting...
+2024-11-24 23:23:37 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:23:37 [INFO] NetworkTask started
+2024-11-24 23:23:38 [INFO] Session initialized: Layer 158
+2024-11-24 23:23:38 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:23:38 [INFO] System: Windows 10 (en)
+2024-11-24 23:23:38 [INFO] Session started
+2024-11-24 23:23:38 [INFO] PingTask started
+2024-11-24 23:23:38 [INFO] Started 16 HandlerTasks
+2024-11-24 23:25:17 [INFO] Connecting...
+2024-11-24 23:25:17 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:25:17 [INFO] NetworkTask started
+2024-11-24 23:25:17 [INFO] Session initialized: Layer 158
+2024-11-24 23:25:17 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:25:17 [INFO] System: Windows 10 (en)
+2024-11-24 23:25:17 [INFO] Session started
+2024-11-24 23:25:17 [INFO] PingTask started
+2024-11-24 23:25:17 [INFO] Started 16 HandlerTasks
+2024-11-24 23:32:44 [INFO] Connecting...
+2024-11-24 23:32:44 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:32:44 [INFO] NetworkTask started
+2024-11-24 23:32:45 [INFO] Session initialized: Layer 158
+2024-11-24 23:32:45 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:32:45 [INFO] System: Windows 10 (en)
+2024-11-24 23:32:45 [INFO] Session started
+2024-11-24 23:32:45 [INFO] PingTask started
+2024-11-24 23:32:45 [INFO] Started 16 HandlerTasks
+2024-11-24 23:33:01 [INFO] Connecting...
+2024-11-24 23:33:01 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:33:01 [INFO] NetworkTask started
+2024-11-24 23:33:01 [INFO] Session initialized: Layer 158
+2024-11-24 23:33:01 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:33:01 [INFO] System: Windows 10 (en)
+2024-11-24 23:33:01 [INFO] Session started
+2024-11-24 23:33:01 [INFO] PingTask started
+2024-11-24 23:33:01 [INFO] Started 16 HandlerTasks
+2024-11-24 23:33:34 [INFO] Connecting...
+2024-11-24 23:33:34 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:33:34 [INFO] NetworkTask started
+2024-11-24 23:33:34 [INFO] Session initialized: Layer 158
+2024-11-24 23:33:34 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:33:34 [INFO] System: Windows 10 (en)
+2024-11-24 23:33:34 [INFO] Session started
+2024-11-24 23:33:34 [INFO] PingTask started
+2024-11-24 23:33:34 [INFO] Started 16 HandlerTasks
+2024-11-24 23:38:21 [INFO] Connecting...
+2024-11-24 23:38:21 [INFO] Connected! Production DC2 - IPv4
+2024-11-24 23:38:21 [INFO] NetworkTask started
+2024-11-24 23:38:21 [INFO] Session initialized: Layer 158
+2024-11-24 23:38:21 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-24 23:38:21 [INFO] System: Windows 10 (en)
+2024-11-24 23:38:21 [INFO] Session started
+2024-11-24 23:38:21 [INFO] PingTask started
+2024-11-24 23:38:22 [INFO] Started 16 HandlerTasks
+2024-11-25 21:02:45 [INFO] Connecting...
+2024-11-25 21:02:45 [INFO] Connected! Production DC2 - IPv4
+2024-11-25 21:02:45 [INFO] NetworkTask started
+2024-11-25 21:02:46 [INFO] Session initialized: Layer 158
+2024-11-25 21:02:46 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-25 21:02:46 [INFO] System: Windows 10 (en)
+2024-11-25 21:02:46 [INFO] Session started
+2024-11-25 21:02:46 [INFO] PingTask started
+2024-11-25 21:02:46 [INFO] Started 16 HandlerTasks
+2024-11-25 21:02:46 [INFO] Connecting...
+2024-11-25 21:02:46 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-25 21:02:46 [INFO] NetworkTask started
+2024-11-25 21:02:46 [INFO] Session initialized: Layer 158
+2024-11-25 21:02:46 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-25 21:02:46 [INFO] System: Windows 10 (en)
+2024-11-25 21:02:46 [INFO] Session started
+2024-11-25 21:02:46 [INFO] PingTask started
+2024-11-25 21:04:20 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:97> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:98> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 132, in main
+    await app.send_document(LOG_group_name, r"C:\projects\telegramsender\database.txt")
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 98, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:98> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-25 21:04:47 [INFO] Connecting...
+2024-11-25 21:04:47 [INFO] Connected! Production DC2 - IPv4
+2024-11-25 21:04:47 [INFO] NetworkTask started
+2024-11-25 21:04:47 [INFO] Session initialized: Layer 158
+2024-11-25 21:04:47 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-25 21:04:47 [INFO] System: Windows 10 (en)
+2024-11-25 21:04:47 [INFO] Session started
+2024-11-25 21:04:47 [INFO] PingTask started
+2024-11-25 21:04:47 [INFO] Started 16 HandlerTasks
+2024-11-25 21:04:47 [INFO] Connecting...
+2024-11-25 21:04:47 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-25 21:04:47 [INFO] NetworkTask started
+2024-11-25 21:04:47 [INFO] Session initialized: Layer 158
+2024-11-25 21:04:47 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-25 21:04:47 [INFO] System: Windows 10 (en)
+2024-11-25 21:04:47 [INFO] Session started
+2024-11-25 21:04:47 [INFO] PingTask started
+2024-11-25 21:04:58 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:97> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:98> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 132, in main
+    await app.send_document(LOG_group_name, r"C:\projects\telegramsender\database.txt")
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 98, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:98> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-25 21:13:27 [INFO] Connecting...
+2024-11-25 21:13:27 [INFO] Connected! Production DC2 - IPv4
+2024-11-25 21:13:27 [INFO] NetworkTask started
+2024-11-25 21:13:27 [INFO] Session initialized: Layer 158
+2024-11-25 21:13:27 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-25 21:13:27 [INFO] System: Windows 10 (en)
+2024-11-25 21:13:27 [INFO] Session started
+2024-11-25 21:13:27 [INFO] PingTask started
+2024-11-25 21:13:28 [INFO] Started 16 HandlerTasks
+2024-11-25 21:13:28 [INFO] Отчет успешно отправлен в 2024-11-25 21:13:28
+2024-11-25 21:21:14 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:97> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:98> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 135, in main
+    logging.info(f"Отчет успешно отправлен в {current_time}")
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 98, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:98> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-25 21:21:17 [INFO] Connecting...
+2024-11-25 21:21:17 [INFO] Connected! Production DC2 - IPv4
+2024-11-25 21:21:17 [INFO] NetworkTask started
+2024-11-25 21:21:18 [INFO] Session initialized: Layer 158
+2024-11-25 21:21:18 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-25 21:21:18 [INFO] System: Windows 10 (en)
+2024-11-25 21:21:18 [INFO] Session started
+2024-11-25 21:21:18 [INFO] PingTask started
+2024-11-25 21:21:18 [INFO] Started 16 HandlerTasks
+2024-11-25 21:21:18 [INFO] Отчет успешно отправлен в 2024-11-25 21:21:18
+2024-11-25 21:21:40 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:97> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:98> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 136, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 98, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:98> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-25 21:21:44 [INFO] Connecting...
+2024-11-25 21:21:44 [INFO] Connected! Production DC2 - IPv4
+2024-11-25 21:21:44 [INFO] NetworkTask started
+2024-11-25 21:21:44 [INFO] Session initialized: Layer 158
+2024-11-25 21:21:44 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-25 21:21:44 [INFO] System: Windows 10 (en)
+2024-11-25 21:21:44 [INFO] Session started
+2024-11-25 21:21:44 [INFO] PingTask started
+2024-11-25 21:21:44 [INFO] Started 16 HandlerTasks
+2024-11-25 21:21:44 [INFO] Connecting...
+2024-11-25 21:21:45 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-25 21:21:45 [INFO] NetworkTask started
+2024-11-25 21:21:45 [INFO] Session initialized: Layer 158
+2024-11-25 21:21:45 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-25 21:21:45 [INFO] System: Windows 10 (en)
+2024-11-25 21:21:45 [INFO] Session started
+2024-11-25 21:21:45 [INFO] PingTask started
+2024-11-25 21:24:44 [INFO] Connecting...
+2024-11-25 21:24:44 [INFO] Connected! Production DC2 - IPv4
+2024-11-25 21:24:44 [INFO] NetworkTask started
+2024-11-30 20:14:27 [INFO] Connecting...
+2024-11-30 20:14:27 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:14:27 [INFO] NetworkTask started
+2024-11-30 20:14:28 [INFO] Session initialized: Layer 158
+2024-11-30 20:14:28 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:14:28 [INFO] System: Windows 10 (en)
+2024-11-30 20:14:28 [INFO] Session started
+2024-11-30 20:14:28 [INFO] PingTask started
+2024-11-30 20:14:28 [INFO] Started 16 HandlerTasks
+2024-11-30 20:14:28 [INFO] Connecting...
+2024-11-30 20:14:28 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:14:28 [INFO] NetworkTask started
+2024-11-30 20:14:29 [INFO] Session initialized: Layer 158
+2024-11-30 20:14:29 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:14:29 [INFO] System: Windows 10 (en)
+2024-11-30 20:14:29 [INFO] Session started
+2024-11-30 20:14:29 [INFO] PingTask started
+2024-11-30 20:14:38 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-153' coro=<Client.handle_updates() done, defined at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py:535> exception=ValueError('Peer id invalid: -1002212296855')>
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\storage\sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002212296855'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002212296855
+2024-11-30 20:16:17 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:97> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:98> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-35' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 133, in main
+    await app.send_document('logging1055p', 'req.txt')
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 98, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:98> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-35' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:16:21 [INFO] Connecting...
+2024-11-30 20:16:21 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:16:21 [INFO] NetworkTask started
+2024-11-30 20:16:21 [INFO] Session initialized: Layer 158
+2024-11-30 20:16:21 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:16:21 [INFO] System: Windows 10 (en)
+2024-11-30 20:16:21 [INFO] Session started
+2024-11-30 20:16:21 [INFO] PingTask started
+2024-11-30 20:16:21 [INFO] Started 16 HandlerTasks
+2024-11-30 20:16:21 [INFO] Connecting...
+2024-11-30 20:16:22 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:16:22 [INFO] NetworkTask started
+2024-11-30 20:16:22 [INFO] Session initialized: Layer 158
+2024-11-30 20:16:22 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:16:22 [INFO] System: Windows 10 (en)
+2024-11-30 20:16:22 [INFO] Session started
+2024-11-30 20:16:22 [INFO] PingTask started
+2024-11-30 20:16:56 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:102> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:103> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 138, in main
+    await app.send_document('logging1055p', 'req.txt')
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 103, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:103> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:16:59 [INFO] Connecting...
+2024-11-30 20:16:59 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:16:59 [INFO] NetworkTask started
+2024-11-30 20:17:00 [INFO] Session initialized: Layer 158
+2024-11-30 20:17:00 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:17:00 [INFO] System: Windows 10 (en)
+2024-11-30 20:17:00 [INFO] Session started
+2024-11-30 20:17:00 [INFO] PingTask started
+2024-11-30 20:17:00 [INFO] Started 16 HandlerTasks
+2024-11-30 20:17:00 [INFO] Connecting...
+2024-11-30 20:17:00 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:17:00 [INFO] NetworkTask started
+2024-11-30 20:17:00 [INFO] Session initialized: Layer 158
+2024-11-30 20:17:00 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:17:00 [INFO] System: Windows 10 (en)
+2024-11-30 20:17:00 [INFO] Session started
+2024-11-30 20:17:00 [INFO] PingTask started
+2024-11-30 20:19:19 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:102> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:103> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 141, in main
+    await app.send_document('logging1055p', file_path)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 103, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:103> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:19:23 [INFO] Connecting...
+2024-11-30 20:19:23 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:19:23 [INFO] NetworkTask started
+2024-11-30 20:19:23 [INFO] Session initialized: Layer 158
+2024-11-30 20:19:23 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:19:23 [INFO] System: Windows 10 (en)
+2024-11-30 20:19:23 [INFO] Session started
+2024-11-30 20:19:23 [INFO] PingTask started
+2024-11-30 20:19:23 [INFO] Started 16 HandlerTasks
+2024-11-30 20:19:23 [INFO] Connecting...
+2024-11-30 20:19:23 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:19:23 [INFO] NetworkTask started
+2024-11-30 20:19:23 [INFO] Session initialized: Layer 158
+2024-11-30 20:19:23 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:19:23 [INFO] System: Windows 10 (en)
+2024-11-30 20:19:23 [INFO] Session started
+2024-11-30 20:19:23 [INFO] PingTask started
+2024-11-30 20:19:47 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:102> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:103> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 142, in main
+    await app.send_document('logging1055p', file_path)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 103, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:103> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:19:52 [INFO] Connecting...
+2024-11-30 20:19:52 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:19:52 [INFO] NetworkTask started
+2024-11-30 20:19:53 [INFO] Session initialized: Layer 158
+2024-11-30 20:19:53 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:19:53 [INFO] System: Windows 10 (en)
+2024-11-30 20:19:53 [INFO] Session started
+2024-11-30 20:19:53 [INFO] PingTask started
+2024-11-30 20:19:53 [INFO] Started 16 HandlerTasks
+2024-11-30 20:19:53 [INFO] Connecting...
+2024-11-30 20:19:53 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:19:53 [INFO] NetworkTask started
+2024-11-30 20:19:53 [INFO] Session initialized: Layer 158
+2024-11-30 20:19:53 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:19:53 [INFO] System: Windows 10 (en)
+2024-11-30 20:19:53 [INFO] Session started
+2024-11-30 20:19:53 [INFO] PingTask started
+2024-11-30 20:20:33 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:102> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:103> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 142, in main
+    await app.send_document('logging1055p', file_path)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 103, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:103> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:20:36 [INFO] Connecting...
+2024-11-30 20:20:36 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:20:36 [INFO] NetworkTask started
+2024-11-30 20:20:36 [INFO] Session initialized: Layer 158
+2024-11-30 20:20:36 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:20:36 [INFO] System: Windows 10 (en)
+2024-11-30 20:20:36 [INFO] Session started
+2024-11-30 20:20:36 [INFO] PingTask started
+2024-11-30 20:20:36 [INFO] Started 16 HandlerTasks
+2024-11-30 20:20:36 [INFO] Connecting...
+2024-11-30 20:20:36 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:20:36 [INFO] NetworkTask started
+2024-11-30 20:20:36 [INFO] Session initialized: Layer 158
+2024-11-30 20:20:36 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:20:36 [INFO] System: Windows 10 (en)
+2024-11-30 20:20:36 [INFO] Session started
+2024-11-30 20:20:36 [INFO] PingTask started
+2024-11-30 20:21:19 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:102> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:103> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 142, in main
+    await app.send_document('logging1055p', file_path)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 103, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:103> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:21:23 [INFO] Connecting...
+2024-11-30 20:21:23 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:21:23 [INFO] NetworkTask started
+2024-11-30 20:21:23 [INFO] Session initialized: Layer 158
+2024-11-30 20:21:23 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:21:23 [INFO] System: Windows 10 (en)
+2024-11-30 20:21:23 [INFO] Session started
+2024-11-30 20:21:23 [INFO] PingTask started
+2024-11-30 20:21:23 [INFO] Started 16 HandlerTasks
+2024-11-30 20:25:20 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:102> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:103> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 148, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 103, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:103> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:25:24 [INFO] Connecting...
+2024-11-30 20:25:24 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:25:24 [INFO] NetworkTask started
+2024-11-30 20:25:24 [INFO] Session initialized: Layer 158
+2024-11-30 20:25:24 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:25:24 [INFO] System: Windows 10 (en)
+2024-11-30 20:25:24 [INFO] Session started
+2024-11-30 20:25:24 [INFO] PingTask started
+2024-11-30 20:25:24 [INFO] Started 16 HandlerTasks
+2024-11-30 20:25:24 [INFO] Connecting...
+2024-11-30 20:25:24 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:25:24 [INFO] NetworkTask started
+2024-11-30 20:25:25 [INFO] Session initialized: Layer 158
+2024-11-30 20:25:25 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:25:25 [INFO] System: Windows 10 (en)
+2024-11-30 20:25:25 [INFO] Session started
+2024-11-30 20:25:25 [INFO] PingTask started
+2024-11-30 20:27:56 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:102> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:103> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 143, in main
+    print(f"Загрузка: {current * 100 / total:.1f}%")
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 103, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:103> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:28:00 [INFO] Connecting...
+2024-11-30 20:28:00 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:28:00 [INFO] NetworkTask started
+2024-11-30 20:28:00 [INFO] Session initialized: Layer 158
+2024-11-30 20:28:00 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:28:00 [INFO] System: Windows 10 (en)
+2024-11-30 20:28:00 [INFO] Session started
+2024-11-30 20:28:00 [INFO] PingTask started
+2024-11-30 20:28:01 [INFO] Started 16 HandlerTasks
+2024-11-30 20:28:01 [INFO] Connecting...
+2024-11-30 20:28:01 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:28:01 [INFO] NetworkTask started
+2024-11-30 20:28:01 [INFO] Session initialized: Layer 158
+2024-11-30 20:28:01 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:28:01 [INFO] System: Windows 10 (en)
+2024-11-30 20:28:01 [INFO] Session started
+2024-11-30 20:28:01 [INFO] PingTask started
+2024-11-30 20:29:44 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 149, in main
+    await app.send_document('logging1055p', file_path, progress=progress)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:29:47 [INFO] Connecting...
+2024-11-30 20:29:47 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:29:47 [INFO] NetworkTask started
+2024-11-30 20:29:48 [INFO] Session initialized: Layer 158
+2024-11-30 20:29:48 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:29:48 [INFO] System: Windows 10 (en)
+2024-11-30 20:29:48 [INFO] Session started
+2024-11-30 20:29:48 [INFO] PingTask started
+2024-11-30 20:29:48 [INFO] Started 16 HandlerTasks
+2024-11-30 20:29:48 [INFO] Connecting...
+2024-11-30 20:29:48 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:29:48 [INFO] NetworkTask started
+2024-11-30 20:29:48 [INFO] Session initialized: Layer 158
+2024-11-30 20:29:48 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:29:48 [INFO] System: Windows 10 (en)
+2024-11-30 20:29:48 [INFO] Session started
+2024-11-30 20:29:48 [INFO] PingTask started
+2024-11-30 20:31:19 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 149, in main
+    await app.send_document('logging1055p', file_path, progress=progress)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:31:22 [INFO] Connecting...
+2024-11-30 20:31:22 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:31:22 [INFO] NetworkTask started
+2024-11-30 20:31:23 [INFO] Session initialized: Layer 158
+2024-11-30 20:31:23 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:31:23 [INFO] System: Windows 10 (en)
+2024-11-30 20:31:23 [INFO] Session started
+2024-11-30 20:31:23 [INFO] PingTask started
+2024-11-30 20:31:23 [INFO] Started 16 HandlerTasks
+2024-11-30 20:31:23 [INFO] Connecting...
+2024-11-30 20:31:23 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:31:23 [INFO] NetworkTask started
+2024-11-30 20:31:23 [INFO] Session initialized: Layer 158
+2024-11-30 20:31:23 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:31:23 [INFO] System: Windows 10 (en)
+2024-11-30 20:31:23 [INFO] Session started
+2024-11-30 20:31:23 [ERROR] Strings must be encoded before hashing
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 182, in save_file
+    md5_sum.update(chunk)
+TypeError: Strings must be encoded before hashing
+2024-11-30 20:31:23 [INFO] PingTask started
+2024-11-30 20:32:07 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 150, in main
+    await app.send_document('logging1055p', file, progress=progress)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 181, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:32:11 [INFO] Connecting...
+2024-11-30 20:32:11 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:32:11 [INFO] NetworkTask started
+2024-11-30 20:32:11 [INFO] Session initialized: Layer 158
+2024-11-30 20:32:11 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:32:11 [INFO] System: Windows 10 (en)
+2024-11-30 20:32:11 [INFO] Session started
+2024-11-30 20:32:11 [INFO] PingTask started
+2024-11-30 20:32:11 [INFO] Started 16 HandlerTasks
+2024-11-30 20:32:36 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 160, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:32:39 [INFO] Connecting...
+2024-11-30 20:32:39 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:32:39 [INFO] NetworkTask started
+2024-11-30 20:32:39 [INFO] Session initialized: Layer 158
+2024-11-30 20:32:39 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:32:39 [INFO] System: Windows 10 (en)
+2024-11-30 20:32:39 [INFO] Session started
+2024-11-30 20:32:39 [INFO] PingTask started
+2024-11-30 20:32:39 [INFO] Started 16 HandlerTasks
+2024-11-30 20:32:52 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 160, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:32:55 [INFO] Connecting...
+2024-11-30 20:32:55 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:32:55 [INFO] NetworkTask started
+2024-11-30 20:32:55 [INFO] Session initialized: Layer 158
+2024-11-30 20:32:55 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:32:55 [INFO] System: Windows 10 (en)
+2024-11-30 20:32:55 [INFO] Session started
+2024-11-30 20:32:55 [INFO] PingTask started
+2024-11-30 20:32:55 [INFO] Started 16 HandlerTasks
+2024-11-30 20:33:45 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 160, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:33:49 [INFO] Connecting...
+2024-11-30 20:33:49 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:33:49 [INFO] NetworkTask started
+2024-11-30 20:33:49 [INFO] Session initialized: Layer 158
+2024-11-30 20:33:49 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:33:49 [INFO] System: Windows 10 (en)
+2024-11-30 20:33:49 [INFO] Session started
+2024-11-30 20:33:49 [INFO] PingTask started
+2024-11-30 20:33:49 [INFO] Started 16 HandlerTasks
+2024-11-30 20:34:24 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-36' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 160, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-36' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:34:27 [INFO] Connecting...
+2024-11-30 20:34:27 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:34:27 [INFO] NetworkTask started
+2024-11-30 20:34:27 [INFO] Session initialized: Layer 158
+2024-11-30 20:34:27 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:34:27 [INFO] System: Windows 10 (en)
+2024-11-30 20:34:27 [INFO] Session started
+2024-11-30 20:34:27 [INFO] PingTask started
+2024-11-30 20:34:27 [INFO] Started 16 HandlerTasks
+2024-11-30 20:35:33 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 160, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:35:36 [INFO] Connecting...
+2024-11-30 20:35:36 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:35:36 [INFO] NetworkTask started
+2024-11-30 20:35:36 [INFO] Session initialized: Layer 158
+2024-11-30 20:35:36 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:35:36 [INFO] System: Windows 10 (en)
+2024-11-30 20:35:36 [INFO] Session started
+2024-11-30 20:35:36 [INFO] PingTask started
+2024-11-30 20:35:36 [INFO] Started 16 HandlerTasks
+2024-11-30 20:36:25 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 161, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:36:28 [INFO] Connecting...
+2024-11-30 20:36:28 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:36:28 [INFO] NetworkTask started
+2024-11-30 20:36:28 [INFO] Session initialized: Layer 158
+2024-11-30 20:36:28 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:36:28 [INFO] System: Windows 10 (en)
+2024-11-30 20:36:28 [INFO] Session started
+2024-11-30 20:36:28 [INFO] PingTask started
+2024-11-30 20:36:28 [INFO] Started 16 HandlerTasks
+2024-11-30 20:36:28 [INFO] Connecting...
+2024-11-30 20:36:28 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:36:28 [INFO] NetworkTask started
+2024-11-30 20:36:28 [INFO] Session initialized: Layer 158
+2024-11-30 20:36:28 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:36:28 [INFO] System: Windows 10 (en)
+2024-11-30 20:36:28 [INFO] Session started
+2024-11-30 20:36:28 [INFO] PingTask started
+2024-11-30 20:37:16 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 152, in main
+    await app.send_document('logging1055p', file_path, progress=progress)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:37:19 [INFO] Connecting...
+2024-11-30 20:37:19 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:37:19 [INFO] NetworkTask started
+2024-11-30 20:37:20 [INFO] Session initialized: Layer 158
+2024-11-30 20:37:20 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:37:20 [INFO] System: Windows 10 (en)
+2024-11-30 20:37:20 [INFO] Session started
+2024-11-30 20:37:20 [INFO] PingTask started
+2024-11-30 20:37:20 [INFO] Started 16 HandlerTasks
+2024-11-30 20:37:20 [INFO] Connecting...
+2024-11-30 20:37:20 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:37:20 [INFO] NetworkTask started
+2024-11-30 20:37:20 [INFO] Session initialized: Layer 158
+2024-11-30 20:37:20 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:37:20 [INFO] System: Windows 10 (en)
+2024-11-30 20:37:20 [INFO] Session started
+2024-11-30 20:37:20 [INFO] PingTask started
+2024-11-30 20:39:45 [INFO] Connecting...
+2024-11-30 20:39:45 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:39:45 [INFO] NetworkTask started
+2024-11-30 20:39:45 [INFO] Connecting...
+2024-11-30 20:39:45 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:39:45 [INFO] NetworkTask started
+2024-11-30 20:39:45 [INFO] Session initialized: Layer 158
+2024-11-30 20:39:45 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:39:45 [INFO] System: Windows 10 (en)
+2024-11-30 20:39:45 [INFO] Session started
+2024-11-30 20:39:45 [INFO] PingTask started
+2024-11-30 20:39:45 [INFO] Started 16 HandlerTasks
+2024-11-30 20:39:45 [INFO] Connecting...
+2024-11-30 20:39:45 [INFO] Session initialized: Layer 158
+2024-11-30 20:39:45 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:39:45 [INFO] System: Windows 10 (en)
+2024-11-30 20:39:45 [INFO] Session started
+2024-11-30 20:39:45 [INFO] PingTask started
+2024-11-30 20:39:45 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:39:45 [INFO] NetworkTask started
+2024-11-30 20:39:46 [INFO] Session initialized: Layer 158
+2024-11-30 20:39:46 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:39:46 [INFO] System: Windows 10 (en)
+2024-11-30 20:39:46 [INFO] Session started
+2024-11-30 20:39:46 [INFO] PingTask started
+2024-11-30 20:39:56 [INFO] Connecting...
+2024-11-30 20:39:56 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:39:56 [INFO] NetworkTask started
+2024-11-30 20:39:56 [INFO] Connecting...
+2024-11-30 20:39:56 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:39:56 [INFO] NetworkTask started
+2024-11-30 20:39:57 [INFO] Session initialized: Layer 158
+2024-11-30 20:39:57 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:39:57 [INFO] System: Windows 10 (en)
+2024-11-30 20:39:57 [INFO] Session started
+2024-11-30 20:39:57 [INFO] PingTask started
+2024-11-30 20:39:57 [INFO] Session initialized: Layer 158
+2024-11-30 20:39:57 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:39:57 [INFO] System: Windows 10 (en)
+2024-11-30 20:39:57 [INFO] Session started
+2024-11-30 20:39:57 [INFO] PingTask started
+2024-11-30 20:39:57 [INFO] Started 16 HandlerTasks
+2024-11-30 20:39:57 [INFO] Connecting...
+2024-11-30 20:39:57 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:39:57 [INFO] NetworkTask started
+2024-11-30 20:39:57 [INFO] Session initialized: Layer 158
+2024-11-30 20:39:57 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:39:57 [INFO] System: Windows 10 (en)
+2024-11-30 20:39:57 [INFO] Session started
+2024-11-30 20:39:57 [INFO] PingTask started
+2024-11-30 20:40:57 [INFO] Connecting...
+2024-11-30 20:40:57 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:40:57 [INFO] NetworkTask started
+2024-11-30 20:40:58 [INFO] Connecting...
+2024-11-30 20:40:58 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:40:58 [INFO] NetworkTask started
+2024-11-30 20:40:58 [INFO] Session initialized: Layer 158
+2024-11-30 20:40:58 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:40:58 [INFO] System: Windows 10 (en)
+2024-11-30 20:40:58 [INFO] Session started
+2024-11-30 20:40:58 [INFO] PingTask started
+2024-11-30 20:40:58 [INFO] Session initialized: Layer 158
+2024-11-30 20:40:58 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:40:58 [INFO] System: Windows 10 (en)
+2024-11-30 20:40:58 [INFO] Session started
+2024-11-30 20:40:58 [INFO] PingTask started
+2024-11-30 20:40:58 [INFO] Started 16 HandlerTasks
+2024-11-30 20:43:47 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 159, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:43:51 [INFO] Connecting...
+2024-11-30 20:43:51 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:43:51 [INFO] NetworkTask started
+2024-11-30 20:43:51 [INFO] Session initialized: Layer 158
+2024-11-30 20:43:51 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:43:51 [INFO] System: Windows 10 (en)
+2024-11-30 20:43:51 [INFO] Session started
+2024-11-30 20:43:51 [INFO] PingTask started
+2024-11-30 20:43:51 [INFO] Started 16 HandlerTasks
+2024-11-30 20:43:58 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 159, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:44:02 [INFO] Connecting...
+2024-11-30 20:44:02 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:44:02 [INFO] NetworkTask started
+2024-11-30 20:44:02 [INFO] Session initialized: Layer 158
+2024-11-30 20:44:02 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:44:02 [INFO] System: Windows 10 (en)
+2024-11-30 20:44:02 [INFO] Session started
+2024-11-30 20:44:02 [INFO] PingTask started
+2024-11-30 20:44:02 [INFO] Started 16 HandlerTasks
+2024-11-30 20:45:56 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 159, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:46:00 [INFO] Connecting...
+2024-11-30 20:46:00 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:46:00 [INFO] NetworkTask started
+2024-11-30 20:46:00 [INFO] Session initialized: Layer 158
+2024-11-30 20:46:00 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:46:00 [INFO] System: Windows 10 (en)
+2024-11-30 20:46:00 [INFO] Session started
+2024-11-30 20:46:00 [INFO] PingTask started
+2024-11-30 20:46:00 [INFO] Started 16 HandlerTasks
+2024-11-30 20:46:00 [INFO] Connecting...
+2024-11-30 20:46:00 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:46:00 [INFO] NetworkTask started
+2024-11-30 20:46:01 [INFO] Session initialized: Layer 158
+2024-11-30 20:46:01 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:46:01 [INFO] System: Windows 10 (en)
+2024-11-30 20:46:01 [INFO] Session started
+2024-11-30 20:46:01 [INFO] PingTask started
+2024-11-30 20:47:29 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 152, in main
+    await app.send_document('logging1055p', 'database.zip', progress=progress)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:47:32 [INFO] Connecting...
+2024-11-30 20:47:32 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:47:32 [INFO] NetworkTask started
+2024-11-30 20:47:33 [INFO] Session initialized: Layer 158
+2024-11-30 20:47:33 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:47:33 [INFO] System: Windows 10 (en)
+2024-11-30 20:47:33 [INFO] Session started
+2024-11-30 20:47:33 [INFO] PingTask started
+2024-11-30 20:47:33 [INFO] Started 16 HandlerTasks
+2024-11-30 20:47:43 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 159, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:47:46 [INFO] Connecting...
+2024-11-30 20:47:46 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:47:46 [INFO] NetworkTask started
+2024-11-30 20:47:47 [INFO] Session initialized: Layer 158
+2024-11-30 20:47:47 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:47:47 [INFO] System: Windows 10 (en)
+2024-11-30 20:47:47 [INFO] Session started
+2024-11-30 20:47:47 [INFO] PingTask started
+2024-11-30 20:47:47 [INFO] Started 16 HandlerTasks
+2024-11-30 20:47:47 [INFO] Connecting...
+2024-11-30 20:47:47 [INFO] Connected! Production DC2 (media) - IPv4
+2024-11-30 20:47:47 [INFO] NetworkTask started
+2024-11-30 20:47:47 [INFO] Session initialized: Layer 158
+2024-11-30 20:47:47 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:47:47 [INFO] System: Windows 10 (en)
+2024-11-30 20:47:47 [INFO] Session started
+2024-11-30 20:47:47 [INFO] PingTask started
+2024-11-30 20:48:12 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 152, in main
+    await app.send_document('logging1055p', '321.zip', progress=progress)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\messages\send_document.py", line 163, in send_document
+    file = await self.save_file(document, progress=progress, progress_args=progress_args)
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\advanced\save_file.py", line 219, in save_file
+    await queue.put(None)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 121, in put
+    await putter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:48:16 [INFO] Connecting...
+2024-11-30 20:48:16 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:48:16 [INFO] NetworkTask started
+2024-11-30 20:48:16 [INFO] Session initialized: Layer 158
+2024-11-30 20:48:16 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:48:16 [INFO] System: Windows 10 (en)
+2024-11-30 20:48:16 [INFO] Session started
+2024-11-30 20:48:16 [INFO] PingTask started
+2024-11-30 20:48:16 [INFO] Started 16 HandlerTasks
+2024-11-30 20:48:28 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 159, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:48:32 [INFO] Connecting...
+2024-11-30 20:48:32 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:48:32 [INFO] NetworkTask started
+2024-11-30 20:48:32 [INFO] Session initialized: Layer 158
+2024-11-30 20:48:32 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:48:32 [INFO] System: Windows 10 (en)
+2024-11-30 20:48:32 [INFO] Session started
+2024-11-30 20:48:32 [INFO] PingTask started
+2024-11-30 20:48:32 [INFO] Started 16 HandlerTasks
+2024-11-30 20:48:58 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 159, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-11-30 20:49:02 [INFO] Connecting...
+2024-11-30 20:49:02 [INFO] Connected! Production DC2 - IPv4
+2024-11-30 20:49:02 [INFO] NetworkTask started
+2024-11-30 20:49:02 [INFO] Session initialized: Layer 158
+2024-11-30 20:49:02 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-11-30 20:49:02 [INFO] System: Windows 10 (en)
+2024-11-30 20:49:02 [INFO] Session started
+2024-11-30 20:49:02 [INFO] PingTask started
+2024-11-30 20:49:02 [INFO] Started 16 HandlerTasks
+2024-11-30 21:22:46 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:107> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:108> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 159, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 108, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:108> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-12-09 22:31:12 [INFO] Connecting...
+2024-12-09 22:31:12 [INFO] Connected! Production DC2 - IPv4
+2024-12-09 22:31:12 [INFO] NetworkTask started
+2024-12-09 22:31:13 [INFO] Session initialized: Layer 158
+2024-12-09 22:31:13 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-09 22:31:13 [INFO] System: Windows 10 (en)
+2024-12-09 22:31:13 [INFO] Session started
+2024-12-09 22:31:13 [INFO] PingTask started
+2024-12-09 22:31:13 [INFO] Started 16 HandlerTasks
+2024-12-09 22:31:47 [INFO] Connecting...
+2024-12-09 22:31:47 [INFO] Connected! Production DC2 - IPv4
+2024-12-09 22:31:47 [INFO] NetworkTask started
+2024-12-09 22:31:47 [INFO] Session initialized: Layer 158
+2024-12-09 22:31:47 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-09 22:31:47 [INFO] System: Windows 10 (en)
+2024-12-09 22:31:47 [INFO] Session started
+2024-12-09 22:31:47 [INFO] PingTask started
+2024-12-09 22:31:47 [INFO] Started 16 HandlerTasks
+2024-12-14 20:01:44 [INFO] Connecting...
+2024-12-14 20:01:44 [INFO] Connected! Production DC2 - IPv4
+2024-12-14 20:01:44 [INFO] NetworkTask started
+2024-12-14 20:01:44 [INFO] Session initialized: Layer 158
+2024-12-14 20:01:44 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-14 20:01:44 [INFO] System: Windows 10 (en)
+2024-12-14 20:01:44 [INFO] Session started
+2024-12-14 20:01:44 [INFO] PingTask started
+2024-12-14 20:01:44 [INFO] Started 16 HandlerTasks
+2024-12-14 20:02:54 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:120> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:121> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 165, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 121, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:121> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop

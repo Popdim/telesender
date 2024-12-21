@@ -2362,3 +2362,161 @@ Traceback (most recent call last):
   File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
     await i
 RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:121> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-12-14 20:46:38 [INFO] Connecting...
+2024-12-14 20:46:38 [INFO] Connected! Production DC2 - IPv4
+2024-12-14 20:46:38 [INFO] NetworkTask started
+2024-12-14 20:46:38 [INFO] Session initialized: Layer 158
+2024-12-14 20:46:38 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-14 20:46:38 [INFO] System: Windows 10 (en)
+2024-12-14 20:46:38 [INFO] Session started
+2024-12-14 20:46:38 [INFO] PingTask started
+2024-12-14 20:46:38 [INFO] Started 16 HandlerTasks
+2024-12-17 14:20:16 [INFO] Connecting...
+2024-12-17 14:20:16 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 14:20:16 [INFO] NetworkTask started
+2024-12-17 14:20:16 [INFO] Session initialized: Layer 158
+2024-12-17 14:20:16 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 14:20:16 [INFO] System: Windows 10 (en)
+2024-12-17 14:20:16 [INFO] Session started
+2024-12-17 14:20:16 [INFO] PingTask started
+2024-12-17 14:20:17 [INFO] Started 16 HandlerTasks
+2024-12-17 14:26:51 [INFO] Connecting...
+2024-12-17 14:26:51 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 14:26:51 [INFO] NetworkTask started
+2024-12-17 14:26:51 [INFO] Session initialized: Layer 158
+2024-12-17 14:26:51 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 14:26:51 [INFO] System: Windows 10 (en)
+2024-12-17 14:26:51 [INFO] Session started
+2024-12-17 14:26:51 [INFO] PingTask started
+2024-12-17 14:26:51 [INFO] Started 16 HandlerTasks
+2024-12-17 14:28:22 [INFO] Connecting...
+2024-12-17 14:28:22 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 14:28:22 [INFO] NetworkTask started
+2024-12-17 14:28:22 [INFO] Session initialized: Layer 158
+2024-12-17 14:28:22 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 14:28:22 [INFO] System: Windows 10 (en)
+2024-12-17 14:28:22 [INFO] Session started
+2024-12-17 14:28:22 [INFO] PingTask started
+2024-12-17 14:28:22 [INFO] Started 16 HandlerTasks
+2024-12-17 14:31:04 [INFO] Connecting...
+2024-12-17 14:31:04 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 14:31:04 [INFO] NetworkTask started
+2024-12-17 14:31:04 [INFO] Session initialized: Layer 158
+2024-12-17 14:31:04 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 14:31:04 [INFO] System: Windows 10 (en)
+2024-12-17 14:31:04 [INFO] Session started
+2024-12-17 14:31:04 [INFO] PingTask started
+2024-12-17 14:31:04 [INFO] Started 16 HandlerTasks
+2024-12-17 14:31:04 [INFO] Stopped 16 HandlerTasks
+2024-12-17 14:31:04 [INFO] PingTask stopped
+2024-12-17 14:31:04 [INFO] Disconnected
+2024-12-17 14:31:04 [INFO] NetworkTask stopped
+2024-12-17 14:31:04 [INFO] Session stopped
+2024-12-17 14:31:43 [INFO] Connecting...
+2024-12-17 14:31:43 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 14:31:43 [INFO] NetworkTask started
+2024-12-17 14:31:44 [INFO] Session initialized: Layer 158
+2024-12-17 14:31:44 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 14:31:44 [INFO] System: Windows 10 (en)
+2024-12-17 14:31:44 [INFO] Session started
+2024-12-17 14:31:44 [INFO] PingTask started
+2024-12-17 14:31:44 [INFO] Started 16 HandlerTasks
+2024-12-17 14:31:44 [INFO] Stopped 16 HandlerTasks
+2024-12-17 14:31:44 [INFO] PingTask stopped
+2024-12-17 14:31:44 [INFO] Disconnected
+2024-12-17 14:31:44 [INFO] NetworkTask stopped
+2024-12-17 14:31:44 [INFO] Session stopped
+2024-12-17 14:32:16 [INFO] Connecting...
+2024-12-17 14:32:16 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 14:32:16 [INFO] NetworkTask started
+2024-12-17 14:32:16 [INFO] Session initialized: Layer 158
+2024-12-17 14:32:16 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 14:32:16 [INFO] System: Windows 10 (en)
+2024-12-17 14:32:16 [INFO] Session started
+2024-12-17 14:32:16 [INFO] PingTask started
+2024-12-17 14:32:16 [INFO] Started 16 HandlerTasks
+2024-12-17 14:32:16 [INFO] Stopped 16 HandlerTasks
+2024-12-17 14:32:16 [INFO] PingTask stopped
+2024-12-17 14:32:16 [INFO] Disconnected
+2024-12-17 14:32:16 [INFO] NetworkTask stopped
+2024-12-17 14:32:16 [INFO] Session stopped
+2024-12-17 15:08:45 [INFO] Connecting...
+2024-12-17 15:08:45 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 15:08:45 [INFO] NetworkTask started
+2024-12-17 15:08:46 [INFO] Session initialized: Layer 158
+2024-12-17 15:08:46 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 15:08:46 [INFO] System: Windows 10 (en)
+2024-12-17 15:08:46 [INFO] Session started
+2024-12-17 15:08:46 [INFO] PingTask started
+2024-12-17 15:08:46 [INFO] Started 16 HandlerTasks
+2024-12-17 16:36:52 [INFO] Connecting...
+2024-12-17 16:36:52 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 16:36:52 [INFO] NetworkTask started
+2024-12-17 16:36:53 [INFO] Session initialized: Layer 158
+2024-12-17 16:36:53 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 16:36:53 [INFO] System: Windows 10 (en)
+2024-12-17 16:36:53 [INFO] Session started
+2024-12-17 16:36:53 [INFO] PingTask started
+2024-12-17 16:36:53 [INFO] Started 16 HandlerTasks
+2024-12-17 16:39:30 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<main() done, defined at C:\projects\telegramsender\main.py:27> exception=RuntimeError("Task <Task pending name='Task-1' coro=<main() running at C:\\projects\\telegramsender\\main.py:28> cb=[gather.<locals>._done_callback() at C:\\Users\\popdi\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\\projects\\telegramsender\\venv\\lib\\site-packages\\pyrogram\\dispatcher.py:202>> attached to a different loop")>
+Traceback (most recent call last):
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 600, in run_forever
+    self._run_once()
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 788, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 45, in main
+    await asyncio.sleep(1802)
+  File "C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 605, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\telegramsender\main.py", line 28, in main
+    async with app:
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\client.py", line 315, in __aexit__
+    await self.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 65, in stop
+    await do_it()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\utilities\stop.py", line 61, in do_it
+    await self.terminate()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\methods\auth\terminate.py", line 47, in terminate
+    await self.dispatcher.stop()
+  File "C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py", line 162, in stop
+    await i
+RuntimeError: Task <Task pending name='Task-1' coro=<main() running at C:\projects\telegramsender\main.py:28> cb=[gather.<locals>._done_callback() at C:\Users\popdi\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720]> got Future <Task pending name='Task-31' coro=<Dispatcher.handler_worker() running at C:\projects\telegramsender\venv\lib\site-packages\pyrogram\dispatcher.py:202>> attached to a different loop
+2024-12-17 16:39:33 [INFO] Connecting...
+2024-12-17 16:39:33 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 16:39:33 [INFO] NetworkTask started
+2024-12-17 16:39:33 [INFO] Session initialized: Layer 158
+2024-12-17 16:39:33 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 16:39:33 [INFO] System: Windows 10 (en)
+2024-12-17 16:39:33 [INFO] Session started
+2024-12-17 16:39:33 [INFO] PingTask started
+2024-12-17 16:39:34 [INFO] Started 16 HandlerTasks
+2024-12-17 17:13:41 [INFO] Connecting...
+2024-12-17 17:13:41 [INFO] Connected! Production DC2 - IPv4
+2024-12-17 17:13:41 [INFO] NetworkTask started
+2024-12-17 17:13:41 [INFO] Session initialized: Layer 158
+2024-12-17 17:13:41 [INFO] Device: CPython 3.10.7 - Pyrogram 2.0.106
+2024-12-17 17:13:41 [INFO] System: Windows 10 (en)
+2024-12-17 17:13:41 [INFO] Session started
+2024-12-17 17:13:41 [INFO] PingTask started
+2024-12-17 17:13:42 [INFO] Started 16 HandlerTasks
